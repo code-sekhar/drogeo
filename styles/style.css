@@ -1119,6 +1119,10 @@ span.send_icons {
 .right-side {
   justify-content: end; }
 
+img.prod_bg_shadow.testimonial_img {
+  right: -8px;
+  left: 0; }
+
 .footer_copy_right_descriptions > p {
   color: #8B9FCF;
   font-size: 10px;
