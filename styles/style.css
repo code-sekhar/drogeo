@@ -1142,3 +1142,59 @@ p.only_mb {
   align-items: center;
   height: 100%;
   justify-content: end; }
+
+span.dd_ar.active_rotate {
+  transform: rotate(180deg);
+  transition: 0.5s; }
+
+ul.drop_down {
+  padding-left: 0;
+  list-style: none;
+  display: none; }
+
+ul.drop_down > li {
+  border-bottom: 1px rgba(181, 181, 195, 0.26) solid; }
+
+ul.drop_down > li > a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #1E255E;
+  font-size: 15px;
+  font-family: Poppins;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 57px;
+  word-wrap: break-word; }
+
+ul.drop_down > li ul.sub_drop_down {
+  list-style: none;
+  padding-left: 20px;
+  display: none; }
+
+ul.drop_down > li ul.sub_drop_down > li {
+  position: relative; }
+
+ul.drop_down > li ul.sub_drop_down > li > a {
+  color: #1E255E;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 47px;
+  word-wrap: break-word;
+  text-decoration: none;
+  display: block; }
+
+ul.drop_down > li ul.sub_drop_down > li > a::after {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-image: url(../images/point.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: -16px;
+  top: 50%;
+  transform: translateY(-50%); }
