@@ -1,7 +1,7 @@
 {
   "scripts": {
     "watch:scss": "node-sass -w styles -o styles",
-    "build:scss": "node-sass styles/style.scss styles/product-catalogue.scss styles/delivery-address.scss styles/product.scss styles/cart.scss -o styles"
+    "build:scss": "node-sass styles/style.scss styles/product-catalogue.scss styles/delivery-address.scss styles/product.scss styles/cart.scss styles/order-summary.scss -o styles"
   },
   "dependencies": {
     "bootstrap": "^5.3.2",

@@ -215,3 +215,15 @@ label.form-check-label.check_order_inputs a.tc_link {
 
 .subscribe_sections {
   margin-top: 40px !important; }
+
+.boxs_column_item.nxter_cols.last_border_none {
+  border-bottom: 0px !important; }
+
+span.bold_txt {
+  color: #1E255E;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 1;
+  word-wrap: break-word;
+  margin-right: 16px; }
