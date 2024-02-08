@@ -1293,7 +1293,37 @@ ul.drop_down {
 		}
 	}
 }
-
+ul.sub_drop_down.order_fr_history_links {
+	list-style: none;
+	padding-left:20px;
+	display: none;
+	>li{
+		position:relative;
+		>a{
+			color: #1E255E;
+			font-size: 12px;
+			font-family: Poppins;
+			font-weight: 400;
+			text-transform: capitalize;
+			line-height: 47px;
+			word-wrap: break-word;
+			text-decoration: none;
+			display: block;
+		}
+	}
+	>li>a::after{
+		content: '';
+		position: absolute;
+		width: 13px;
+		height: 13px;
+		background-image: url(../images/point.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		left: -16px;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
 .inner_progress_item.worning_section{
 	span.progress_check{
 		background-color: #F3F6F9 !important;
