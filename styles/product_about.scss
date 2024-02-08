@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.about_description_wraper_main_container {
+    padding: 24px 42px;
+    background: white;
+    box-shadow: 0px 24px 80px rgba(116, 116, 227, 0.10);
+    border-radius: 21px;
+    margin-bottom: 60px;
+}
+
+.top_col_desc{
+    p {
+        color: #1E255D;
+        font-size: 12px;
+        font-family: Poppins;
+        font-weight: 400;
+        text-transform: capitalize;
+        line-height: 1;
+        word-wrap: break-word;
+        margin-bottom: 22px;
+    }
+}
+
+.list_heading{
+    h4 {
+        color: #21C4AC;
+        font-size: 18px;
+        font-family: Poppins;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 1;
+        word-wrap: break-word;
+        margin-bottom: 12px;
+    }
+}
+
+.listeds{
+    >ul{
+        margin-bottom: 0;
+        list-style: none;
+        padding-left: 30px;
+        >li {
+            color: #1E255D;
+            font-size: 13px;
+            font-family: Poppins;
+            font-weight: 500;
+            text-transform: capitalize;
+            line-height: 18px;
+            word-wrap: break-word;
+            margin-bottom: 14px;
+            position: relative;
+            
+            >a {
+                color: #5265FF;
+                font-size: 13px;
+                font-family: Poppins;
+                font-weight: 500;
+                text-transform: capitalize;
+                text-decoration: none;
+            }
+        }
+        li::after{
+            position: absolute;
+            width: 20px;
+            height: 20px;content: '';
+            left: -30px;
+            background-image: url('../images/tiks_boxs.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            top: 0;
+        }
+    }
+}
+.listing_item_columns.only_topiess {
+    margin-bottom: 30px;
+}
+
+button.abt_btns {
+    background: #FF9900;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    line-height: 1;
+    color: white;
+    font-size: 15px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    .about_sect_btns {
+        margin-top: 30px;
+    }
+}
+
+
+
+
