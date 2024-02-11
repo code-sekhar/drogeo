@@ -41,10 +41,11 @@ $border-color_1: #fff transparent transparent transparent;
 /* Scrollbar styles */
 .dropdown {
 	button {
-		width: 100px;
+		width: 110px;
 		height: 30px;
 		border-radius: 6px;
 		border: 1px #DCDDE6 solid;
+		background-color: #fff;
 		color: $color_1;
 		font-size: 13px;
 		font-family: $font-family_1;
@@ -119,10 +120,13 @@ $border-color_1: #fff transparent transparent transparent;
 	height: 0;
 	display: inline-block;
 	vertical-align: middle;
-	border-style: solid;
-	border-width: 4px 4px 0 4px;
-	border-color: $border-color_1;
+	
 	margin: 0 0 0 5px;
+	background-image: url(../images/lan-arrow-down.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 12px;
+	height: 12px;
 }
 ::-webkit-scrollbar {
 	width: 8px;

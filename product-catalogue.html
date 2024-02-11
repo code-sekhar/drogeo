@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles/product-catalogue.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/product.css">
     <link rel="stylesheet" href="styles/responsive.css">
     <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
@@ -4086,6 +4087,102 @@
             </div>
         </div>
     </div>
+
+    <div class="catelog_popup_box">
+        <a href="javascript:void(0)" class="catlog_closes_btnss">
+            <span>
+                <i class="fa-solid fa-xmark"></i>
+            </span>
+        </a>
+        <div class="inner_catelog_popup_box">
+            <div class="top_popup_rows">
+                <div class="top_image_thumb">
+                    <span>
+                        <img src="./images/product_bottle.png" alt="" srcset="">
+                    </span>
+                </div>
+                <div class="top_pop_desc">
+                    <h4>AVRILÉ UNIVERSAL PRACÍ GEL</h4>
+                </div>
+            </div>
+            <div class="comboss">
+                <div class="main_next_row_popup">
+                    <div class="main_next_row_popup">
+                        <div class="main_row_heading">
+                            <h4>AVRILÉ UNIVERSAL PRACÍ GEL</h4>
+                        </div>
+                        <div class="seller_lists">
+                            <ul>
+                                <li class="active_yellows"><label for="" class="label_texts_products">AVRILÉ UNIVERSAL</label><b>$127<span class="sml">.00 Kč</span></b></li>
+                                <li><label for=""  class="label_texts_products">AVRILÉ UNIVERSAL</label><b>$127<span class="sml">.00 Kč</span></b></li>
+                                <li><label for=""  class="label_texts_products">AVRILÉ UNIVERSAL</label><b>$127<span class="sml">.00 Kč</span></b></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="next_third_boxs">
+                    <div class="main_last_thrd">
+                        <div class="left_cols">
+                            <div class="qut_row">
+                                <div class="inner-quentity-and-prices">
+                                    <div class="quentity_increment_column">
+                                        <div class="quentity_boxs">
+                                            <button id="decrement"><i class="fa-solid fa-minus"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="quentity_label">
+                                        <!-- <h4 id="">0</h4> -->
+                                        <input type="" value="1" id="input" readonly="">
+                                    </div>
+                                    <div class="product_price_column">
+                                        <button id="increment"><i class="fa-solid fa-plus"></i></button>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>$127 <span>.00 Kč</span></h4>
+                            <p>lorem ipsum is dummy</p>
+                        </div>
+                        <div class="right_cols">
+                            <span>
+                                <img src="./images/labelss.png" alt="" srcset="">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---------------Next-Bottom-buye-section------------------>
+            <div class="buy_section_areas">
+                <div class="inner_bue">
+                    <div class="green_btnss">
+                        <button>
+                            <span>
+                                <img src="./images/bag-happy.png" alt="" srcset="">
+                            </span>
+                            Lorem Ipsum</button>
+                    </div>
+                    <div class="white_btnss">
+                        <button>LOREM</button>
+                    </div>
+                </div>
+            </div>
+            <!---------------Next-Bottom-buye-section-end------------------>
+            <div class="delivery_sectionss">
+                <div class="inner_delivery_sectionss">
+                    <div class="del_iconss">
+                        <span>
+                            <img src="./images/gd.png" alt="" srcset="">
+                        </span>
+                    </div>
+                    <div class="dels_contents">
+                        <h4>Skladem (5+ ks)</h4>
+                        <p>Centrála – Dnes u Vás</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cates_bg_popups"></div>
     <!-- hero_section_end -->
    <!-- Do not miss any special offer! -->
    <div class="subscribe_sections">
@@ -4600,6 +4697,15 @@ owltesti.owlCarousel();
   //mobile-footer
   $(".footer_title_headers").click(function(){
     $(this).parent().parent('.inner_footer_columns').children('.footer_list').toggle();
+  })
+  //deliverysses
+  $(".deliverysses").click(function(){
+    $(".catelog_popup_box").show();
+    $(".cates_bg_popups").show();
+  })
+  $(".catlog_closes_btnss").click(function(){
+    $(".catelog_popup_box").hide();
+    $(".cates_bg_popups").hide();
   })
 </script>
 </body>

@@ -1052,10 +1052,17 @@ label.radio-card .card-content {
 @media only screen and (max-width: 1382px) and (min-width: 1000px) {}
 
 @media only screen and (max-width: 1480px) and (min-width: 1000px) {
-    .desk_top_menus > ul > li > a {
+    .desk_top_menus {
+        > ul {
+            > li {
+                > a {
 
-        font-size: 12px;
- 
+                    font-size: 12px;
+             
+                }
+            }
+        }
+
     }
     .desk_top_menus > ul > li {
         display: inline-block;
@@ -1075,11 +1082,54 @@ label.radio-card .card-content {
 
 @media only screen and (max-width: 1000px) and (min-width: 700px) {}
 
-@media only screen and (max-width: 999px) and (min-width: 300px) {}
+@media only screen and (max-width: 999px) and (min-width: 300px) {
+    
+    
+    .owl-item {
+        > li {
+            > a {
+                font-size: 10px !important;
+                > span{
+                    > img {
+                        width: 20px !important;
+                        margin-bottom: 10px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+    span.menu-txt {
+        line-height: 1;
+        margin-top: 4px;
+        // height: 20px;
+   
+        display: flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
-@media only screen and (max-width: 999px) and (min-width: 768px) {}
+@media only screen and (max-width: 450px) and (min-width: 300px) {
+    .menu-section.mobile_slides_menus {
+        top: 25px;
+    }
+}
 
-@media only screen and (max-width: 767px) and (min-width: 300px) {}
+@media only screen and (max-width: 767px) and (min-width: 300px) {
+    .product_filter_category_sections.only_off_grid {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+    }
+    .cats_filtest.only_off {
+        width: 210px;
+        margin-bottom: 14px;
+    }
+    .dropdown-content {
+        left: -70px;
+    }
+}
 
 @media only screen and (max-width: 4999px) and (min-width: 999px) {}
 
