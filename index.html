@@ -4410,7 +4410,7 @@
                         items: 3,
                         // nav: true,
                         loop: true,
-                        dots: true
+                        dots: false
                     }
                 }
             });
@@ -4452,7 +4452,7 @@
                         items: 3,
                         // nav: true,
                         loop: true,
-                        dots: true
+                        dots: false
                     }
                 }
             });
@@ -4546,6 +4546,18 @@
       //mobile-footer
       $(".footer_title_headers").click(function(){
         $(this).parent().parent('.inner_footer_columns').children('.footer_list').toggle();
+      })
+
+
+      //Login_popup
+       //Login_popup
+       $(".log_in_menu_btn").click(function(){
+        $(".login_page_sections").show();
+        $(".login_bg").show();
+      });
+      $(".form_close").click(function(){
+        $(".login_page_sections").hide();
+        $(".login_bg").hide();
       })
     </script>
 </body>

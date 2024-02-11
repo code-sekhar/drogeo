@@ -22,16 +22,18 @@
   padding-left: 0px;
   list-style: none;
   margin-bottom: 0px !important; }
-  .dl_col ul li {
-    color: #1E255E;
-    font-size: 14px;
-    font-family: Poppins;
-    font-weight: 500;
-    line-height: 1;
-    word-wrap: break-word;
-    margin-bottom: 8px; }
-  .dl_col ul li:last-child {
-    margin-bottom: 0px; }
+
+.dl_col ul li {
+  color: #1E255E;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1;
+  word-wrap: break-word;
+  margin-bottom: 8px; }
+
+.dl_col ul li:last-child {
+  margin-bottom: 0px; }
 
 a.changes {
   color: #21C4AC;
@@ -143,39 +145,43 @@ span.qyt_badge {
   display: flex;
   align-items: center;
   height: 100%; }
-  .table_heading_title.sum h4 {
-    color: #FF4668;
-    font-size: 15px;
-    font-family: Poppins;
-    font-weight: 600;
-    word-wrap: break-word;
-    line-height: 1;
-    margin-bottom: 0; }
-    .table_heading_title.sum h4 span {
-      color: #FF4668;
-      font-size: 12px;
-      font-family: Poppins;
-      font-weight: 600;
-      word-wrap: break-word; }
+
+.table_heading_title.sum h4 {
+  color: #FF4668;
+  font-size: 15px;
+  font-family: Poppins;
+  font-weight: 600;
+  word-wrap: break-word;
+  line-height: 1;
+  margin-bottom: 0; }
+
+.table_heading_title.sum h4 span {
+  color: #FF4668;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 600;
+  word-wrap: break-word; }
 
 .table_heading_title.price {
   height: 100%;
   display: flex;
   align-items: center; }
-  .table_heading_title.price h4 {
-    color: #1E255E;
-    font-size: 15px;
-    font-family: Poppins;
-    font-weight: 600;
-    word-wrap: break-word;
-    line-height: 1;
-    margin-bottom: 0; }
-    .table_heading_title.price h4 span {
-      color: #1E255E;
-      font-size: 12px;
-      font-family: Poppins;
-      font-weight: 600;
-      word-wrap: break-word; }
+
+.table_heading_title.price h4 {
+  color: #1E255E;
+  font-size: 15px;
+  font-family: Poppins;
+  font-weight: 600;
+  word-wrap: break-word;
+  line-height: 1;
+  margin-bottom: 0; }
+
+.table_heading_title.price h4 span {
+  color: #1E255E;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 600;
+  word-wrap: break-word; }
 
 .table_heading_title.product_delivery_date {
   height: 100%;
@@ -236,12 +242,13 @@ span.qyt_badge {
   word-wrap: break-word;
   line-height: 1;
   margin-bottom: 0; }
-  .promo_productts_contest > h4 > span {
-    color: #FF4668;
-    font-size: 12px;
-    font-family: Poppins;
-    font-weight: 600;
-    word-wrap: break-word; }
+
+.promo_productts_contest > h4 > span {
+  color: #FF4668;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 600;
+  word-wrap: break-word; }
 
 .inner_predit_boxs {
   background: rgba(103, 193, 206, 0.12);
@@ -430,14 +437,15 @@ button.deleted_product span {
   line-height: 1;
   word-wrap: break-word;
   margin-bottom: 0; }
-  .type_box_inner_content h4 span {
-    color: #1E255E;
-    font-size: 14px;
-    font-family: Poppins;
-    font-weight: 500;
-    line-height: 1;
-    word-wrap: break-word;
-    margin-left: 9px; }
+
+.type_box_inner_content h4 span {
+  color: #1E255E;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1;
+  word-wrap: break-word;
+  margin-left: 9px; }
 
 .inner_delivery_type_boxs {
   background: rgba(241, 242, 244, 0.56);
@@ -448,9 +456,10 @@ button.deleted_product span {
   display: flex;
   align-items: center;
   justify-content: end; }
-  .back_btns.next_btnss > button {
-    display: flex;
-    align-items: center; }
+
+.back_btns.next_btnss > button {
+  display: flex;
+  align-items: center; }
 
 span.next-arrow {
   margin-left: 10px; }
@@ -460,3 +469,25 @@ span.next-arrow {
 
 .bottom_pey_section {
   margin-top: 78px; }
+
+.mobile-top-table-header {
+  display: none; }
+
+label.cart_label_title {
+  display: none; }
+
+@media only screen and (max-width: 770px) and (min-width: 300px) {
+  .table_heading_title > h4 {
+    margin-bottom: 0px; }
+  .inner_table_header {
+    padding: 15px 28px; }
+  .order_summary_header {
+    padding: 0px 14px; }
+  .inner_table_header {
+    padding: 15px 14px; }
+  .buying_product_details {
+    margin-bottom: 9px !important; } }
+
+@media only screen and (max-width: 999px) and (min-width: 600px) {
+  .buying_product_details {
+    margin-bottom: 9px !important; } }

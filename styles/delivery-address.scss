@@ -256,3 +256,12 @@ span.bold_txt {
     word-wrap: break-word;
     margin-right: 16px;
 }
+@media only screen and (max-width: 790px) and (min-width: 300px){
+.product_page_header {
+    margin-top: 30px !important;
+    margin-bottom: 40px !important;
+}
+.page_title {
+    display: none;
+}
+}
