@@ -605,6 +605,9 @@ span.small_price_for_catelog {
   right: -12px;
   top: -11px; }
 
+.product_image_box {
+  background: #F1F2F4 !important; }
+
 .seller_lists > ul {
   padding-left: 0;
   list-style: none;

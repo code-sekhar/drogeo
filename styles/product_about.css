@@ -33,33 +33,36 @@
   margin-bottom: 0;
   list-style: none;
   padding-left: 30px; }
-  .listeds > ul > li {
-    color: #1E255D;
-    font-size: 13px;
-    font-family: Poppins;
-    font-weight: 500;
-    text-transform: capitalize;
-    line-height: 18px;
-    word-wrap: break-word;
-    margin-bottom: 14px;
-    position: relative; }
-    .listeds > ul > li > a {
-      color: #5265FF;
-      font-size: 13px;
-      font-family: Poppins;
-      font-weight: 500;
-      text-transform: capitalize;
-      text-decoration: none; }
-  .listeds > ul li::after {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    content: '';
-    left: -30px;
-    background-image: url("../images/tiks_boxs.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    top: 0; }
+
+.listeds > ul > li {
+  color: #1E255D;
+  font-size: 13px;
+  font-family: Poppins;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 18px;
+  word-wrap: break-word;
+  margin-bottom: 14px;
+  position: relative; }
+
+.listeds > ul > li > a {
+  color: #5265FF;
+  font-size: 13px;
+  font-family: Poppins;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-decoration: none; }
+
+.listeds > ul li::after {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  content: '';
+  left: -30px;
+  background-image: url("../images/tiks_boxs.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0; }
 
 .listing_item_columns.only_topiess {
   margin-bottom: 30px; }
@@ -77,5 +80,13 @@ button.abt_btns {
   font-weight: 600;
   text-transform: uppercase;
   word-wrap: break-word; }
-  button.abt_btns .about_sect_btns {
-    margin-top: 30px; }
+
+button.abt_btns .about_sect_btns {
+  margin-top: 30px; }
+
+@media only screen and (max-width: 999px) and (min-width: 300px) {
+  .header_navigations > ul {
+    margin-bottom: 0 !important; }
+  .product_page_header {
+    margin-top: 50px !important;
+    margin-bottom: 28px !important; } }
