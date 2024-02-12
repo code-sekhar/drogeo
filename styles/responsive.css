@@ -740,6 +740,21 @@
     align-items: center; } }
 
 @media only screen and (max-height: 1280px) and (min-height: 700px) {
+  .product_slide_cards {
+    padding-bottom: 38px;
+    width: 98%;
+    padding: 16px;
+    padding-bottom: 38px; }
+  .testimonial_icons > span {
+    filter: blur(0px);
+    display: flex;
+    align-items: center;
+    width: 60px;
+    justify-content: center;
+    height: 60px;
+    margin: auto; } }
+
+@media only screen and (max-height: 1280px) and (min-height: 900px) {
   .inner_progress_item span.tik_arrow {
     margin-left: 12px !important; }
   .category_content > h4 {

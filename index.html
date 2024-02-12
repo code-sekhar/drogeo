@@ -10,6 +10,96 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
 <body>
+    
+<!-------------------------Login-page_conternt------------------------->
+<div class="login_page_sections">
+    <div class="iner_login_page_sections">
+        <div class="login_boxs">
+            <div class="row row_cs_height">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                    <div class="login_logo_id_section">
+                        <div class="inner_logoInd_section">
+                            <div class="login_logo_boxs">
+                                <img src="./images/login_logo.png" alt="" srcset="">
+                            </div>
+                            <div class="login_content">
+                                <p>Discover amazing shopping<br>deals with us!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-12 custom_log_bg">
+                    <div class="right_login_form_section">
+                        <a href="javascript:void(0)" class="form_close">
+                            <span>
+                                <img src="./images/close.png" alt="" srcset="">
+                            </span>
+                        </a>
+                        <div class="inner_right_login_form_section">
+                            <div class="login_header">
+                                <h3>Welcome to Start.</h3>
+                                <p>New Here? <a href="">Create an Account</a></p>
+                            </div>
+                            <div class="login_form_wraper_box">
+                                <div class="inner_login_form_wraper_box">
+                                    <div class="input_fild_box">
+                                        <label for="" class="tt_label">
+                                            Email
+                                        </label>
+                                        <div class="input_custom_fields">
+                                            <input type="text" class="custom_input">
+                                        </div>
+                                    </div>
+                                    <div class="input_fild_box">
+                                       <div class="label_addi">
+                                        <label for="" class="tt_label ">
+                                            Password
+                                            
+                                        </label>
+                                        <a href="">Forgot Password?</a>
+                                       </div>
+                                        <div class="input_custom_fields">
+                                            <input type="text" class="custom_input">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="login_submition_btn_areas">
+                                    <div class="row">
+                                        <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                                            <div class="btns_wrapers">
+                                                <div class="sub_btn_areas_sections">
+                                                    <button class="log_btns">Sign In</button>
+                                                </div>
+                                                <div class="sub_btn_areas_sections log_rights">
+                                                    <button class="log_for-google">
+                                                        <span>
+                                                            <img src="./images/google-icon.png" alt="" srcset="">
+                                                        </span>
+                                                        Sign in with Google</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                                <!---------------termand_conditions------------------->
+                                <div class="tcs_sectionss">
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input tcs_checks" id="check222" name="option222" value="something">
+                                        <label class="form-check-label txxs_txts" for="check222">Remember me</label>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="login_bg"></div>
+
+<!-------------------------------Loging-page-content-end--------------------->
     <div class="hero_section">
         <img src="./images/bg_img.png" alt="" srcset="">
             <div class="header_top_action_ber">
@@ -70,7 +160,7 @@
                             </div>
                             <div class="right_action_tools">
                                 <ul>
-                                    <li><a href="">
+                                    <li><a href="javascript:void(0)" class="log_in_menu_btn">
                                         <span class="tools_icon">
                                             <img src="./images/profile-circle.png" alt="" srcset="">
                                         </span>
@@ -4396,7 +4486,7 @@
                             // nav: true
                     },
                     480: {
-                        items: 1,
+                        items: 2,
                         nav: false,
                         dots: true
                     },
@@ -4438,7 +4528,7 @@
                             // nav: true
                     },
                     480: {
-                        items: 1,
+                        items: 2,
                         nav: false,
                         dots: true
                     },
@@ -4515,6 +4605,30 @@
        nav: false,
        items: 1,
        autoWidth:false,
+       responsive: {
+        0: {
+            items: 1,
+            dots: true
+                // nav: true
+        },
+        480: {
+            items: 2,
+            nav: false,
+            dots: true
+        },
+        768: {
+            items: 2,
+            // nav: true,
+            loop: true,
+            dots: true
+        },
+        992: {
+            items: 3,
+            // nav: true,
+            loop: true,
+            dots: false
+        }
+    }
    });
    owltesti.owlCarousel();
   
